@@ -1,0 +1,192 @@
+html{
+height: 100%;
+}
+
+body{
+font-family: sans-serif;
+margin: 0;
+padding:0;
+
+height: 100%;
+}
+
+.body-home{
+    background-image: url('images/background01-port.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-starters{
+    background-image: url('images/background-05-port.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*============== HEADER ================*/
+.header{
+background-color:whitesmoke;
+    width: 100%;
+    height: 100px;
+    top: 0;
+text-align: center;
+overflow: hidden;
+}
+
+.header i{
+    float: left;
+    padding :17px 0px 17px;
+    color: black;
+}
+
+.header img{
+    width: 450px;
+}
+/*============== HOME PAGE ================*/
+
+#home-logo-img{
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+}
+
+/*============ HOME PAGE MENU =============*/
+
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: yellowgreen;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid whitesmoke;
+
+
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+
+/*============== STARTERS PAGE ================*/
+
+.starters{
+    padding-top: 50px;
+}
+
+/*============ STARTERS PAGE MENU =============*/
+
+.starters-list a {
+text-decoration: none;
+
+}
+
+.starters-list-item{
+    border: 5px solid black;
+    margin: 10px;
+}
+
+
+.starters-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: yellowgreen;
+    padding-left: 10px;
+}
+
+
+.starters-list-item i{
+    float: right;
+    color: yellowgreen;
+    padding-right:20px;
+}
+
+
+.starters-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: whitesmoke;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+/*============== RECIPE PAGE ================*/
+
+/*============== RECIPE DETAILS ================*/
+
+.recipe-details img{
+width: 100%;
+}
+
+.recipe-details h1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid black ;
+    margin: 10px;
+    padding: 5px;
+}
+
+
+.recipe-details h2{
+font-size: 20px;
+text-align: left;
+margin: 0;
+margin-left: 10px;
+
+
+}
+.recipe-details-info{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.recipe-details-info p{
+    font-size: 13px;
+    display: inline-block;
+}
+
+.recipe-details-writeup label{
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+
+
+/***************FORM*****************/
+
+textarea{
+    width: 100%;
+    height :25px;
+    margin : 12px 0;
+    border : 1px solid #929292;
+}
+
+.button{
+    display : block;
+    background-color: black;
+    text-decoration : none;
+    text-align  : center;
+    color       : white;
+    font-size   : 16px;
+    font-weight : 600;
+    margin : 12px 0;
+    padding : 8px 0;
+}
+
+@media only screen and (min-width: 1000px) {
+}
+
+@media only screen and (min-width: 15000px) {
+}
+
+
+@media only screen and (min-width: 720px) {
+}
+
+@media only screen and (min-width: 640px) {
+}
